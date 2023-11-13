@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Exécuter une action
-        uses: actions/hello-world-docker-action@v1
+        uses: actions/hello-world-docker-action@v2
