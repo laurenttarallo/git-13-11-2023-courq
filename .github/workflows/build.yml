@@ -21,7 +21,6 @@ jobs:
       - name: Install Composer and Dependencies
         run: |
               # Télécharger et installer Composer localement
-               curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-              # Exécuter la commande "composer install" pour installer les dépendances
+               curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=compose
                composer install
              
