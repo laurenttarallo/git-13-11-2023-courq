@@ -12,3 +12,7 @@ jobs:
     steps:
       - name: Exécuter une action
         uses: actions/hello-world-docker-action@v1
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Listing files
+        run: ls -al
