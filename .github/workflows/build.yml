@@ -23,4 +23,7 @@ jobs:
               # Télécharger et installer Composer localement
                curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=compose
                composer install
+         
+      - name: Run tests
+        run: ./vendor/bin/phpunit      
              
