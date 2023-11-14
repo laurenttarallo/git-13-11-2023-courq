@@ -18,4 +18,9 @@ jobs:
         run: ls -al
       - name: Setup PHP Action
         uses: shivammathur/setup-php@2.27.1
-            
+      - name: Install Composer and Dependencies
+        run: |
+              # Télécharger et installer Composer localement
+               curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+    
+             
